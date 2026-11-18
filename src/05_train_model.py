@@ -12,5 +12,5 @@ pred=model.predict(Xte)
 print("Step 5 test accuracy (illustrative only):",accuracy_score(yte,pred))
 print(classification_report(yte,pred,zero_division=0))
 # Save a final model trained on all demo rows for the interactive app.
-model.fit(X,y); joblib.dump(model,"05_semantic_ml_model.joblib")
+model.fit(X,y); joblib.dump(model,"artifacts/semantic_ml_model.joblib")
 print("Saved 05_semantic_ml_model.joblib")
