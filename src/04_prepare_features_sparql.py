@@ -5,7 +5,7 @@ import pandas as pd
 g = Graph()
 
 g.parse(
-    "03_enriched_knowledge_graph.ttl",
+    "artifacts/enriched_knowledge_graph.ttl",
     format="turtle"
 )
 
@@ -55,13 +55,13 @@ for row in results:
 df = pd.DataFrame(rows)
 
 df.to_csv(
-    "04_ml_features.csv",
+    "artifacts/ml_features.csv",
     index=False
 )
 
 print(
     "Step 4 complete: "
-    "SPARQL features -> 04_ml_features.csv"
+    "SPARQL features -> artifacts/ml_features.csv"
 )
 
 print()
