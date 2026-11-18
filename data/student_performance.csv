@@ -1,0 +1,13 @@
+student_id,study_hours,attendance_pct,result
+S001,2,50,fail
+S002,4,60,fail
+S003,5,55,fail
+S004,3,65,fail
+S005,6,62,pass
+S006,6,70,pass
+S007,7,75,pass
+S008,8,80,pass
+S009,9,85,pass
+S010,10,90,pass
+S011,4,78,pass
+S012,8,58,pass
