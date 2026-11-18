@@ -24,9 +24,9 @@
 
 <!-- Replace the two placeholder links below after deployment. -->
 <p>
-  <a href="YOUR_STREAMLIT_APP_URL"><strong>Try the live app</strong></a>
+  <a href="https://semantic-ml-demo-26ltmdt4sng65mtafumjrq.streamlit.app/"><strong>Try the live app</strong></a>
   &nbsp;•&nbsp;
-  <a href="YOUR_GITHUB_REPOSITORY_URL"><strong>View the source code</strong></a>
+  <a href="https://github.com/tumelomodise/semantic-ml-demo"><strong>View the source code</strong></a>
 </p>
 
 </div>
