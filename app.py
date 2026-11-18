@@ -7,8 +7,7 @@ st.set_page_config(page_title="Semantic ML Demo", page_icon="🧠", layout="cent
 
 BASE = Path(__file__).resolve().parent
 MODEL_CANDIDATES = [
-    BASE / "artifacts" / "semantic_ml_model.joblib",
-    BASE / "05_semantic_ml_model.joblib",
+    BASE / "artifacts" / "semantic_ml_model.joblib"
 ]
 
 @st.cache_resource
