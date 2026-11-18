@@ -1,2 +1,2 @@
 # semantic-ml-demo
-Semantic ML DemoSemantic ML Demo
+Semantic ML Demo
