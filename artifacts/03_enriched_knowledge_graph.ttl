@@ -1,0 +1,66 @@
+@prefix ex: <http://example.org/edu#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:S001 a ex:AtRiskStudent,
+        ex:Student ;
+    ex:hasAttendance 50 ;
+    ex:hasPerformance "fail" ;
+    ex:hasStudyHours 2 .
+
+ex:S002 a ex:AtRiskStudent,
+        ex:Student ;
+    ex:hasAttendance 60 ;
+    ex:hasPerformance "fail" ;
+    ex:hasStudyHours 4 .
+
+ex:S003 a ex:AtRiskStudent,
+        ex:Student ;
+    ex:hasAttendance 55 ;
+    ex:hasPerformance "fail" ;
+    ex:hasStudyHours 5 .
+
+ex:S004 a ex:Student ;
+    ex:hasAttendance 65 ;
+    ex:hasPerformance "fail" ;
+    ex:hasStudyHours 3 .
+
+ex:S005 a ex:Student ;
+    ex:hasAttendance 62 ;
+    ex:hasPerformance "pass" ;
+    ex:hasStudyHours 6 .
+
+ex:S006 a ex:Student ;
+    ex:hasAttendance 70 ;
+    ex:hasPerformance "pass" ;
+    ex:hasStudyHours 6 .
+
+ex:S007 a ex:Student ;
+    ex:hasAttendance 75 ;
+    ex:hasPerformance "pass" ;
+    ex:hasStudyHours 7 .
+
+ex:S008 a ex:Student ;
+    ex:hasAttendance 80 ;
+    ex:hasPerformance "pass" ;
+    ex:hasStudyHours 8 .
+
+ex:S009 a ex:Student ;
+    ex:hasAttendance 85 ;
+    ex:hasPerformance "pass" ;
+    ex:hasStudyHours 9 .
+
+ex:S010 a ex:Student ;
+    ex:hasAttendance 90 ;
+    ex:hasPerformance "pass" ;
+    ex:hasStudyHours 10 .
+
+ex:S011 a ex:Student ;
+    ex:hasAttendance 78 ;
+    ex:hasPerformance "pass" ;
+    ex:hasStudyHours 4 .
+
+ex:S012 a ex:Student ;
+    ex:hasAttendance 58 ;
+    ex:hasPerformance "pass" ;
+    ex:hasStudyHours 8 .
+
